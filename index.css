@@ -1,0 +1,249 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #111;
+  font-size: 1.6rem;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-feature-settings: "palt" 1;
+  letter-spacing: 0.2rem;
+  line-height: 1.8;
+  background: url(http://www.netyasun.com/home/bk-img/b001.gif) center top;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+a {
+  color: #111;
+  text-decoration: none;
+  transition: 0.4s;
+}
+a:hover {
+  opacity: 0.7;
+}
+.img {
+  width: 100%;
+  height: auto;
+}
+.h1 {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .sp {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pc {
+    display: none;
+  }
+}
+
+.page-index .innav {
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+}
+.page-index .innav li {
+  display: inline-block;
+  font-weight: 700;
+  margin: 0 20px;
+}
+.page-index .innav li a {
+  display: block;
+}
+.page-index .innav ul li a:hover {
+  opacity: 1;
+}
+.page-index .innav ul li:nth-of-type(1).current a,
+.page-index .innav ul li:nth-of-type(1) a:hover {
+  color: #d4317e;
+}
+.page-index .innav ul li:nth-of-type(2).current a,
+.page-index .innav ul li:nth-of-type(2) a:hover {
+  color: #164a97;
+}
+.page-index .innav ul li:nth-of-type(3).current a,
+.page-index .innav ul li:nth-of-type(3) a:hover {
+  color: #d62e26;
+}
+.page-index .innav ul li:nth-of-type(4).current a,
+.page-index .innav ul li:nth-of-type(4) a:hover {
+  color: #ea9b37;
+}
+
+.page-index .innav ul li:nth-of-type(5).current a,
+.page-index .innav ul li:nth-of-type(5) a:hover {
+  color: #41a1e4;
+}
+.page-index .innav ul li:nth-of-type(6).current a,
+.page-index .innav ul li:nth-of-type(6) a:hover {
+  color: #ffde00;
+}
+.page-index .innav ul li.shop {
+  margin: 0;
+}
+.page-index .innav ul li.shop a {
+  color: #fff;
+  background-color: #333;
+  padding: 0 20px;
+}
+
+/*footer------------------------*/
+footer {
+  margin-top: auto;
+}
+
+.footer {
+  color: #111;
+  background-color: #211a15;
+}
+.footer_inner {
+  max-width: 1320px;
+  padding: 30px 20px;
+  margin: 0 auto;
+}
+.footer__nav {
+  float: right;
+  font-size: 1.3rem;
+}
+.footer__nav li {
+  display: inline-block;
+  width: 34px;
+  margin-left: 20px;
+}
+.copyright {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 30px 20px 50px;
+}
+
+.content_inner {
+  padding-top: 80px;
+}
+.section {
+  padding: 40px 0 80px;
+}
+.sub-title {
+  font-size: 3.6rem;
+  margin-bottom: 30px;
+}
+.section_inner {
+  -webkit-font-smoothing: antialiased;
+  max-width: 1320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.page-index .content_inner {
+  max-width: 1100px;
+  padding: 0 20px 80px;
+  margin: 0 auto;
+}
+.page-index .section {
+  padding: 0;
+}
+.page-index .section_inner {
+  padding: 0;
+}
+.page-index .sec-info {
+  float: left;
+  width: 60%;
+}
+.page-index .sec-info .sub-title::first-letter {
+  color: #d4307e;
+}
+.page-index .sec-info .ul li {
+  margin-top: 12px;
+}
+.page-index .sec-info .ul li:first-child {
+  margin-top: 0;
+}
+.page-index .sec-info li span {
+  color: #818181;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.page-index .sec-info li .new {
+  color: #d4307e;
+}
+.page-index .sec-info li a {
+  display: block;
+  color: #fff;
+  font-size: 1.6rem;
+  background: url(right-arrow.png) no-repeat 98% center #000800;
+  background-size: 12px auto;
+  border-radius: 5px;
+  padding: 10px 50px 10px 20px;
+}
+.page-index .sec-twitter {
+  float: right;
+  width: 35%;
+}
+.page-index .sec-twitter .section_inner {
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .page-index .innav {
+    padding-top: 0;
+  }
+  .page-index .innav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .page-index .innav li {
+    width: 50%;
+    margin: 0;
+  }
+  .page-index .innav li a {
+    font-size: 1.3rem;
+    border-left: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 0;
+  }
+  .page-index .innav li:nth-of-type(odd) a {
+    border-left: 0;
+  }
+  .page-index .innav ul li.shop {
+    width: 100%;
+  }
+  .page-index .innav ul li.shop a {
+    padding: 10px 0;
+  }
+  .page-index .content__inner {
+    padding-top: 10px;
+  }
+  .page-index .sec-info,
+  .page-index .sec-twitter {
+    float: none;
+    width: auto;
+  }
+  .page-index .sec-info {
+    margin-bottom: 40px;
+  }
+  .page-index .sec-info li span {
+    font-size: 1.2rem;
+  }
+  .page-index .sec-info li a {
+    font-size: 1.4rem;
+    background-size: 8px auto;
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .page-index .sec-info li a {
+    background-position: 95% center;
+  }
+}
